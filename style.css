@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: url("./Assets/background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Navbar Section */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .middle ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    margin-left: 70px;
+}
+.navbar .middle{
+    margin-top: 30px;
+}
+.navbar .middle ul li a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .left img{
+    margin: 95%;
+    margin-top: 8px;
+}
+.navbar .right{
+    display: flex;
+    margin-right: 8%;
+    margin-top: 15px;
+}
+.navbar .right .search-icon{
+    margin-top: 5px;
+}
+.navbar .right .right-btn .search-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 10px 18px;
+    background-color: #ED1883;
+    border: 1px solid #ED1883;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Main Section */
+.main-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.main-section .main-right{
+    width: 1000px;
+    margin-top: -130px;
+}
+.main-section .main-right img{
+    width: 100%;
+    height: 80%;
+}
+.main-section .main-left{
+    width: 40%;
+    margin-top: 50px;
+}
+.main-left .head, .content, .buttons{
+    margin-left: 20%;
+}
+.main-left .head h1{
+   font-size: 60px;
+   margin: 15px;
+}
+.main-left .content p{
+    font-size: 20px;
+    color: gray;
+    margin: 15px;
+}
+.main-left .buttons button{
+    padding: 12px 18px;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.main-left .buttons .applybtn{
+    background-color: #ED1883;
+    border: 1px solid #ED1883;
+    color: white;
+    transition: all 0.5s ease;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.main-left .buttons .applybtn:hover{
+    background-color: white;
+    color:  #ED1883;
+    border: 1px solid  #ED1883;
+}
+.main-left .buttons .loanbtn{
+    background-color: white;
+    color:  #ED1883;
+    border: 1px solid  #ED1883;
+    margin-right: 70px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.main-left .buttons .loanbtn:hover{
+    background-color: #ED1883;
+    color:  white;
+    border: 1px solid  #ED1883;
+}
+
+/* Footer Section */
+.footer{
+    display: flex;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+.footer .contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer .contact p{
+    font-size: 18px;
+}
+.footer .social {
+    margin: 5px;
+}
+.footer .social img{
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+/* Fixed Items */
+.fixed-items .car-loan{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    top: 80px;
+    left: 45%;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 30px;
+}
+.fixed-items .home-loan{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    top: 220px;
+    right: 8%;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 30px;
+}
